@@ -1977,6 +1977,7 @@
     <name>TopicsForObjects</name>
   </types>
   <types>
+  
     <members>Batteries.Customer_Members</members>
     <members>Batteries.Members_without_contribution</members>
     <members>Batteries.Partner_and_Customer_members</members>
