@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Category__c</fullName>
+    <externalId>false</externalId>
+    <label>Category</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Passenger / Light Truck Tires</fullName>
+                <default>false</default>
+                <label>Passenger / Light Truck Tires</label>
+            </value>
+            <value>
+                <fullName>Medium Truck Tires</fullName>
+                <default>false</default>
+                <label>Medium Truck Tires</label>
+            </value>
+            <value>
+                <fullName>Off-Road Tires (Except Large)</fullName>
+                <default>false</default>
+                <label>Off-Road Tires (Except Large)</label>
+            </value>
+            <value>
+                <fullName>Tires less than or equal to 700 kg</fullName>
+                <default>false</default>
+                <label>Tires less than or equal to 700 kg</label>
+            </value>
+            <value>
+                <fullName>Large tires greater than 700 kg</fullName>
+                <default>false</default>
+                <label>Large tires greater than 700 kg</label>
+            </value>
+            <value>
+                <fullName>Number of times you accepted more than 10 tires from a person in a single day</fullName>
+                <default>false</default>
+                <label>Number of times you accepted more than 10 tires from a person in a single day</label>
+            </value>
+            <value>
+                <fullName>Shavings, Strips, Buffings and Trimmings</fullName>
+                <default>false</default>
+                <label>Shavings, Strips, Buffings and Trimmings</label>
+            </value>
+            <value>
+                <fullName>Crumb rubber</fullName>
+                <default>false</default>
+                <label>Crumb rubber</label>
+            </value>
+            <value>
+                <fullName>Tire-derived mulch</fullName>
+                <default>false</default>
+                <label>Tire-derived mulch</label>
+            </value>
+            <value>
+                <fullName>Tire-derived aggregate</fullName>
+                <default>false</default>
+                <label>Tire-derived aggregate</label>
+            </value>
+            <value>
+                <fullName>Tire-derived rubber strips and chunks</fullName>
+                <default>false</default>
+                <label>Tire-derived rubber strips and chunks</label>
+            </value>
+            <value>
+                <fullName>Fluff and fibre</fullName>
+                <default>false</default>
+                <label>Fluff and fibre</label>
+            </value>
+            <value>
+                <fullName>Tire-derived metal (no rims)</fullName>
+                <default>false</default>
+                <label>Tire-derived metal (no rims)</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Mulch, all applications, excluding landfill drainage chips</fullName>
+                <default>false</default>
+                <label>Mulch, all applications, excluding landfill drainage chips</label>
+            </value>
+            <value>
+                <fullName>Landscaping products (not mulch), including tree rings and pavers</fullName>
+                <default>false</default>
+                <label>Landscaping products (not mulch), including tree rings and pavers</label>
+            </value>
+            <value>
+                <fullName>Sporting and playground equipment</fullName>
+                <default>false</default>
+                <label>Sporting and playground equipment</label>
+            </value>
+            <value>
+                <fullName>Flooring products, including agricultural applications</fullName>
+                <default>false</default>
+                <label>Flooring products, including agricultural applications</label>
+            </value>
+            <value>
+                <fullName>Sound proofing products</fullName>
+                <default>false</default>
+                <label>Sound proofing products</label>
+            </value>
+            <value>
+                <fullName>Roofing applications</fullName>
+                <default>false</default>
+                <label>Roofing applications</label>
+            </value>
+            <value>
+                <fullName>Blasting mats</fullName>
+                <default>false</default>
+                <label>Blasting mats</label>
+            </value>
+            <value>
+                <fullName>Ballistic products</fullName>
+                <default>false</default>
+                <label>Ballistic products</label>
+            </value>
+            <value>
+                <fullName>Bases, e.g., pylon and post bases</fullName>
+                <default>false</default>
+                <label>Bases, e.g., pylon and post bases</label>
+            </value>
+            <value>
+                <fullName>Blocks, including wheel chocks</fullName>
+                <default>false</default>
+                <label>Blocks, including wheel chocks</label>
+            </value>
+            <value>
+                <fullName>Equipment feet, e.g., ladder and furniture feet</fullName>
+                <default>false</default>
+                <label>Equipment feet, e.g., ladder and furniture feet</label>
+            </value>
+            <value>
+                <fullName>Vehicle splash guards, mud flaps and floor mats</fullName>
+                <default>false</default>
+                <label>Vehicle splash guards, mud flaps and floor mats</label>
+            </value>
+            <value>
+                <fullName>Ramps</fullName>
+                <default>false</default>
+                <label>Ramps</label>
+            </value>
+            <value>
+                <fullName>Rubberized asphalt</fullName>
+                <default>false</default>
+                <label>Rubberized asphalt</label>
+            </value>
+            <value>
+                <fullName>Speed bumps and parking curbs</fullName>
+                <default>false</default>
+                <label>Speed bumps and parking curbs</label>
+            </value>
+            <value>
+                <fullName>Cable guards</fullName>
+                <default>false</default>
+                <label>Cable guards</label>
+            </value>
+            <value>
+                <fullName>Footwear</fullName>
+                <default>false</default>
+                <label>Footwear</label>
+            </value>
+            <value>
+                <fullName>Houseware products, including planters, coasters and furniture</fullName>
+                <default>false</default>
+                <label>Houseware products, including planters, coasters and furniture</label>
+            </value>
+            <value>
+                <fullName>Sporting and playground surfaces (not mulch)</fullName>
+                <default>false</default>
+                <label>Sporting and playground surfaces (not mulch)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

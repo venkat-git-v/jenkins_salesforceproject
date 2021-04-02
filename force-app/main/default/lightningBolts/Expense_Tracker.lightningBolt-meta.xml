@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningBolt xmlns="http://soap.sforce.com/2006/04/metadata">
+    <category>FinancialServices</category>
+    <lightningBoltFeatures>
+        <order>1</order>
+        <title>Expenses</title>
+    </lightningBoltFeatures>
+    <lightningBoltImages>
+        <image>X40056</image>
+        <order>1</order>
+    </lightningBoltImages>
+    <lightningBoltItems>
+        <name>Recruiting</name>
+        <type>CustomApplication</type>
+    </lightningBoltItems>
+    <masterLabel>Expense Tracker</masterLabel>
+    <publisher>abcinc</publisher>
+    <summary>expenses tracker</summary>
+</LightningBolt>

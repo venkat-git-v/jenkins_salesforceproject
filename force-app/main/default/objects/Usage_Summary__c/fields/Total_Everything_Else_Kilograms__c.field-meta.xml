@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Everything_Else_Kilograms__c</fullName>
+    <externalId>false</externalId>
+    <label>≤ 700 kg Tires</label>
+    <summarizedField>Usage_Data__c.Quantity__c</summarizedField>
+    <summaryFilterItems>
+        <field>Usage_Data__c.Category__c</field>
+        <operation>equals</operation>
+        <value>Tires less than or equal to 700 kg</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Usage_Data__c.Usage_Summary__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

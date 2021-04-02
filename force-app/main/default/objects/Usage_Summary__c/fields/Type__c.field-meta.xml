@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Supply</fullName>
+                <default>false</default>
+                <label>Supply</label>
+            </value>
+            <value>
+                <fullName>Outside Ontario</fullName>
+                <default>false</default>
+                <label>Outside Ontario</label>
+            </value>
+            <value>
+                <fullName>High-volume Drop-off</fullName>
+                <default>false</default>
+                <label>High-volume Drop-off</label>
+            </value>
+            <value>
+                <fullName>Total Picked Up</fullName>
+                <default>false</default>
+                <label>Total Picked Up</label>
+            </value>
+            <value>
+                <fullName>Total Retreaded</fullName>
+                <default>false</default>
+                <label>Total Retreaded</label>
+            </value>
+            <value>
+                <fullName>Sent for Processing</fullName>
+                <default>false</default>
+                <label>Sent for Processing</label>
+            </value>
+            <value>
+                <fullName>Retreaded</fullName>
+                <default>false</default>
+                <label>Retreaded</label>
+            </value>
+            <value>
+                <fullName>Land Disposed</fullName>
+                <default>false</default>
+                <label>Land Disposed</label>
+            </value>
+            <value>
+                <fullName>Incinerated</fullName>
+                <default>false</default>
+                <label>Incinerated</label>
+            </value>
+            <value>
+                <fullName>Used as Fuel</fullName>
+                <default>false</default>
+                <label>Used as Fuel</label>
+            </value>
+            <value>
+                <fullName>Stockpiled</fullName>
+                <default>false</default>
+                <label>Stockpiled</label>
+            </value>
+            <value>
+                <fullName>Collected</fullName>
+                <default>false</default>
+                <label>Collected</label>
+            </value>
+            <value>
+                <fullName>Received from Hauler</fullName>
+                <default>false</default>
+                <label>Received from Hauler</label>
+            </value>
+            <value>
+                <fullName>Total Processed Materials</fullName>
+                <default>false</default>
+                <label>Total Processed Materials</label>
+            </value>
+            <value>
+                <fullName>Total reused on vehicles</fullName>
+                <default>false</default>
+                <label>Total reused on vehicles</label>
+            </value>
+            <value>
+                <fullName>Total reused for a new purpose</fullName>
+                <default>false</default>
+                <label>Total reused for a new purpose</label>
+            </value>
+            <value>
+                <fullName>My Products</fullName>
+                <default>false</default>
+                <label>My Products</label>
+            </value>
+            <value>
+                <fullName>Third-party Products</fullName>
+                <default>false</default>
+                <label>Third-party Products</label>
+            </value>
+            <value>
+                <fullName>Sent for Disposal</fullName>
+                <default>false</default>
+                <label>Sent for Disposal</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

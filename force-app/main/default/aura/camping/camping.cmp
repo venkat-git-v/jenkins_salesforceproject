@@ -1,0 +1,6 @@
+<aura:component implements="flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes" access="global" >
+
+     <c:campingHeader />
+     <c:campingList />  
+    
+</aura:component>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <label>LightningInstrumentation</label>
+    <navType>Standard</navType>
+    <tabs>standard-LightningInstrumentation</tabs>
+    <tabs>Registration_Detail__c</tabs>
+    <tabs>Program_Enrollment__c</tabs>
+    <tabs>PRO_Association__c</tabs>
+    <tabs>Collection_Target__c</tabs>
+    <tabs>Conversion_Data__c</tabs>
+    <tabs>Conversion_Summary__c</tabs>
+    <tabs>Report_Submission__c</tabs>
+    <tabs>Export_Request__c</tabs>
+    <tabs>Service__c</tabs>
+    <tabs>Site__c</tabs>
+    <tabs>System__c</tabs>
+    <tabs>System_Related_Account__c</tabs>
+    <tabs>System_Related_Site__c</tabs>
+    <tabs>Transaction__c</tabs>
+    <tabs>Usage_Summary__c</tabs>
+    <tabs>Usage_Data__c</tabs>
+    <tabs>Pre_Approved_SPA_Type__c</tabs>
+    <tabs>Material_Pricing_Group__c</tabs>
+    <tabs>Part_Number__c</tabs>
+    <tabs>Assigned_Customers__c</tabs>
+    <tabs>Job_Posting_Site__c</tabs>
+    <tabs>Review__c</tabs>
+    <tabs>Expense__c</tabs>
+    <tabs>Camping_Item__c</tabs>
+    <tabs>Favorite__c</tabs>
+    <tabs>Property__c</tabs>
+    <uiType>Lightning</uiType>
+</CustomApplication>

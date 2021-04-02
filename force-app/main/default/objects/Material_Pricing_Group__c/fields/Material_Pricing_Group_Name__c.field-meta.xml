@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Material_Pricing_Group_Name__c</fullName>
+    <externalId>false</externalId>
+    <label>Material Pricing Group Name</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Large Enterprise HW</fullName>
+                <default>false</default>
+                <label>Large Enterprise HW</label>
+            </value>
+            <value>
+                <fullName>Large Enterprise SW</fullName>
+                <default>false</default>
+                <label>Large Enterprise SW</label>
+            </value>
+            <value>
+                <fullName>Large Enterprise Apps</fullName>
+                <default>false</default>
+                <label>Large Enterprise Apps</label>
+            </value>
+            <value>
+                <fullName>MiVoice 5000 HW</fullName>
+                <default>false</default>
+                <label>MiVoice 5000 HW</label>
+            </value>
+            <value>
+                <fullName>MiVoice 5000 SW</fullName>
+                <default>false</default>
+                <label>MiVoice 5000 SW</label>
+            </value>
+            <value>
+                <fullName>MiVoice 5000 Apps</fullName>
+                <default>false</default>
+                <label>MiVoice 5000 Apps</label>
+            </value>
+            <value>
+                <fullName>Enterprise HW</fullName>
+                <default>false</default>
+                <label>Enterprise HW</label>
+            </value>
+            <value>
+                <fullName>Enterprise SW</fullName>
+                <default>false</default>
+                <label>Enterprise SW</label>
+            </value>
+            <value>
+                <fullName>Small/Med Business HW</fullName>
+                <default>false</default>
+                <label>Small/Med Business HW</label>
+            </value>
+            <value>
+                <fullName>Small/Med Business SW</fullName>
+                <default>false</default>
+                <label>Small/Med Business SW</label>
+            </value>
+            <value>
+                <fullName>Small/Med Bus Apps</fullName>
+                <default>false</default>
+                <label>Small/Med Bus Apps</label>
+            </value>
+            <value>
+                <fullName>Small Business HW</fullName>
+                <default>false</default>
+                <label>Small Business HW</label>
+            </value>
+            <value>
+                <fullName>Small Business SW</fullName>
+                <default>false</default>
+                <label>Small Business SW</label>
+            </value>
+            <value>
+                <fullName>Very Small Business HW</fullName>
+                <default>false</default>
+                <label>Very Small Business HW</label>
+            </value>
+            <value>
+                <fullName>Very Small Business SW</fullName>
+                <default>false</default>
+                <label>Very Small Business SW</label>
+            </value>
+            <value>
+                <fullName>Desktop IP (M)</fullName>
+                <default>false</default>
+                <label>Desktop IP (M)</label>
+            </value>
+            <value>
+                <fullName>Desktop SIP</fullName>
+                <default>false</default>
+                <label>Desktop SIP</label>
+            </value>
+            <value>
+                <fullName>Desktop Analog (A)</fullName>
+                <default>false</default>
+                <label>Desktop Analog (A)</label>
+            </value>
+            <value>
+                <fullName>Desktop Digital IP (A)</fullName>
+                <default>false</default>
+                <label>Desktop Digital IP (A)</label>
+            </value>
+            <value>
+                <fullName>SIP DECT</fullName>
+                <default>false</default>
+                <label>SIP DECT</label>
+            </value>
+            <value>
+                <fullName>Legacy Aastra 500</fullName>
+                <default>false</default>
+                <label>Legacy Aastra 500</label>
+            </value>
+            <value>
+                <fullName>3rd Party Group/Spares 5</fullName>
+                <default>false</default>
+                <label>3rd Party Group/Spares 5</label>
+            </value>
+            <value>
+                <fullName>3rd Party Group/Spares 1</fullName>
+                <default>false</default>
+                <label>3rd Party Group/Spares 1</label>
+            </value>
+            <value>
+                <fullName>3rd Party Group/Spares 2</fullName>
+                <default>false</default>
+                <label>3rd Party Group/Spares 2</label>
+            </value>
+            <value>
+                <fullName>3rd Party Group/Spares 3</fullName>
+                <default>false</default>
+                <label>3rd Party Group/Spares 3</label>
+            </value>
+            <value>
+                <fullName>3rd Party Group/Spares 4</fullName>
+                <default>false</default>
+                <label>3rd Party Group/Spares 4</label>
+            </value>
+            <value>
+                <fullName>3rd Party Group/Spares 6</fullName>
+                <default>false</default>
+                <label>3rd Party Group/Spares 6</label>
+            </value>
+            <value>
+                <fullName>3rd Party Group</fullName>
+                <default>false</default>
+                <label>3rd Party Group</label>
+            </value>
+            <value>
+                <fullName>3rd Party Group 7</fullName>
+                <default>false</default>
+                <label>3rd Party Group 7</label>
+            </value>
+            <value>
+                <fullName>3rd Party Group 8</fullName>
+                <default>false</default>
+                <label>3rd Party Group 8</label>
+            </value>
+            <value>
+                <fullName>Lifesize</fullName>
+                <default>false</default>
+                <label>Lifesize</label>
+            </value>
+            <value>
+                <fullName>Lifesize 2</fullName>
+                <default>false</default>
+                <label>Lifesize 2</label>
+            </value>
+            <value>
+                <fullName>HP Accessories</fullName>
+                <default>false</default>
+                <label>HP Accessories</label>
+            </value>
+            <value>
+                <fullName>HP Switches</fullName>
+                <default>false</default>
+                <label>HP Switches</label>
+            </value>
+            <value>
+                <fullName>MTPS</fullName>
+                <default>false</default>
+                <label>MTPS</label>
+            </value>
+            <value>
+                <fullName>Mavenir</fullName>
+                <default>false</default>
+                <label>Mavenir</label>
+            </value>
+            <value>
+                <fullName>MiCC for Lync / SP / Hosted</fullName>
+                <default>false</default>
+                <label>MiCC for Lync / SP / Hosted</label>
+            </value>
+            <value>
+                <fullName>MiVoice Call Recording SW</fullName>
+                <default>false</default>
+                <label>MiVoice Call Recording SW</label>
+            </value>
+            <value>
+                <fullName>MiVoice Call Recording HW</fullName>
+                <default>false</default>
+                <label>MiVoice Call Recording HW</label>
+            </value>
+            <value>
+                <fullName>Oaisys Call Recording SW</fullName>
+                <default>false</default>
+                <label>Oaisys Call Recording SW</label>
+            </value>
+            <value>
+                <fullName>Oaisys Call Recording HW</fullName>
+                <default>false</default>
+                <label>Oaisys Call Recording HW</label>
+            </value>
+            <value>
+                <fullName>Oaisys Warranty</fullName>
+                <default>false</default>
+                <label>Oaisys Warranty</label>
+            </value>
+            <value>
+                <fullName>Oaisys Services</fullName>
+                <default>false</default>
+                <label>Oaisys Services</label>
+            </value>
+            <value>
+                <fullName>Oaisys SWA</fullName>
+                <default>false</default>
+                <label>Oaisys SWA</label>
+            </value>
+            <value>
+                <fullName>SWA - SMB</fullName>
+                <default>false</default>
+                <label>SWA - SMB</label>
+            </value>
+            <value>
+                <fullName>SWA - Large Enterprise</fullName>
+                <default>false</default>
+                <label>SWA - Large Enterprise</label>
+            </value>
+            <value>
+                <fullName>SWA - Solidus</fullName>
+                <default>false</default>
+                <label>SWA - Solidus</label>
+            </value>
+            <value>
+                <fullName>SWA - Ent, Small Bus</fullName>
+                <default>false</default>
+                <label>SWA - Ent, Small Bus</label>
+            </value>
+            <value>
+                <fullName>MiCD / SP / Hosted</fullName>
+                <default>false</default>
+                <label>MiCD / SP / Hosted</label>
+            </value>
+            <value>
+                <fullName>Software as a Service</fullName>
+                <default>false</default>
+                <label>Software as a Service</label>
+            </value>
+            <value>
+                <fullName>DNU Services</fullName>
+                <default>false</default>
+                <label>DNU Services</label>
+            </value>
+            <value>
+                <fullName>Technical Training (EBP&amp;#39;s 50%)</fullName>
+                <default>false</default>
+                <label>Technical Training (EBP&amp;#39;s 50%)</label>
+            </value>
+            <value>
+                <fullName>Technical Training (CDW Only - 20%)</fullName>
+                <default>false</default>
+                <label>Technical Training (CDW Only - 20%)</label>
+            </value>
+            <value>
+                <fullName>Aastra Training</fullName>
+                <default>false</default>
+                <label>Aastra Training</label>
+            </value>
+            <value>
+                <fullName>Non-Discountable</fullName>
+                <default>false</default>
+                <label>Non-Discountable</label>
+            </value>
+            <value>
+                <fullName>Clearspan - M800 Voice &amp;amp; Upgrades</fullName>
+                <default>false</default>
+                <label>Clearspan - M800 Voice &amp;amp; Upgrades</label>
+            </value>
+            <value>
+                <fullName>Clearspan - Digital Gateway</fullName>
+                <default>false</default>
+                <label>Clearspan - Digital Gateway</label>
+            </value>
+            <value>
+                <fullName>Clearspan - M400</fullName>
+                <default>false</default>
+                <label>Clearspan - M400</label>
+            </value>
+            <value>
+                <fullName>Clearspan - M400DP</fullName>
+                <default>false</default>
+                <label>Clearspan - M400DP</label>
+            </value>
+            <value>
+                <fullName>Clearspan - M800 MSBR</fullName>
+                <default>false</default>
+                <label>Clearspan - M800 MSBR</label>
+            </value>
+            <value>
+                <fullName>Clearspan - Remote User Gateway</fullName>
+                <default>false</default>
+                <label>Clearspan - Remote User Gateway</label>
+            </value>
+            <value>
+                <fullName>Clearspan - Telchemy Probe</fullName>
+                <default>false</default>
+                <label>Clearspan - Telchemy Probe</label>
+            </value>
+            <value>
+                <fullName>Pointspan</fullName>
+                <default>false</default>
+                <label>Pointspan</label>
+            </value>
+            <value>
+                <fullName>BT Maintenance Services</fullName>
+                <default>false</default>
+                <label>BT Maintenance Services</label>
+            </value>
+            <value>
+                <fullName>CloudLink Apps</fullName>
+                <default>false</default>
+                <label>CloudLink Apps</label>
+            </value>
+            <value>
+                <fullName>ShoreTel P1 HW &amp;amp; SW</fullName>
+                <default>false</default>
+                <label>ShoreTel P1 HW &amp;amp; SW</label>
+            </value>
+            <value>
+                <fullName>ShoreTel P2 Demo Kit</fullName>
+                <default>false</default>
+                <label>ShoreTel P2 Demo Kit</label>
+            </value>
+            <value>
+                <fullName>ShoreTel P3 OEM</fullName>
+                <default>false</default>
+                <label>ShoreTel P3 OEM</label>
+            </value>
+            <value>
+                <fullName>ShoreTel S1 Services</fullName>
+                <default>false</default>
+                <label>ShoreTel S1 Services</label>
+            </value>
+            <value>
+                <fullName>ShoreTel S2 Spc Ser</fullName>
+                <default>false</default>
+                <label>ShoreTel S2 Spc Ser</label>
+            </value>
+            <value>
+                <fullName>ShoreTel S3/S4 Support</fullName>
+                <default>false</default>
+                <label>ShoreTel S3/S4 Support</label>
+            </value>
+            <value>
+                <fullName>Contact Center &amp;amp; UC Apps</fullName>
+                <default>false</default>
+                <label>Contact Center &amp;amp; UC Apps</label>
+            </value>
+            <value>
+                <fullName>Core Telephony Infrastructure</fullName>
+                <default>false</default>
+                <label>Core Telephony Infrastructure</label>
+            </value>
+            <value>
+                <fullName>Devices</fullName>
+                <default>false</default>
+                <label>Devices</label>
+            </value>
+            <value>
+                <fullName>Peripherals &amp;amp; Legacy</fullName>
+                <default>false</default>
+                <label>Peripherals &amp;amp; Legacy</label>
+            </value>
+            <value>
+                <fullName>SWA</fullName>
+                <default>false</default>
+                <label>SWA</label>
+            </value>
+            <value>
+                <fullName>Third Party</fullName>
+                <default>false</default>
+                <label>Third Party</label>
+            </value>
+            <value>
+                <fullName>Nil Discount</fullName>
+                <default>false</default>
+                <label>Nil Discount</label>
+            </value>
+            <value>
+                <fullName>Services</fullName>
+                <default>false</default>
+                <label>Services</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

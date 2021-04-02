@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Collection Site</fullName>
+                <default>false</default>
+                <label>Collection Site</label>
+            </value>
+            <value>
+                <fullName>Retail Location</fullName>
+                <default>false</default>
+                <label>Retail Location</label>
+            </value>
+            <value>
+                <fullName>Processing Site</fullName>
+                <default>false</default>
+                <label>Processing Site</label>
+            </value>
+            <value>
+                <fullName>Retreader Site</fullName>
+                <default>false</default>
+                <label>Retreader Site</label>
+            </value>
+            <value>
+                <fullName>Exempt Collection Site</fullName>
+                <default>false</default>
+                <label>Exempt Collection Site</label>
+            </value>
+            <value>
+                <fullName>Community</fullName>
+                <default>false</default>
+                <label>Community</label>
+            </value>
+            <value>
+                <fullName>Collection Event</fullName>
+                <default>false</default>
+                <label>Collection Event</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

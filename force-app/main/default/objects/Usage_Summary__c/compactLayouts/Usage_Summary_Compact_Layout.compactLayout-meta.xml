@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Usage_Summary_Compact_Layout</fullName>
+    <fields>Name</fields>
+    <fields>Status__c</fields>
+    <fields>Total_Units__c</fields>
+    <fields>Total_Weight__c</fields>
+    <fields>Type__c</fields>
+    <label>Usage Summary Compact Layout</label>
+</CompactLayout>
