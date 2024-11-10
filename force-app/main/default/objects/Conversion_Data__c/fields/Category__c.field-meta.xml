@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Category__c</fullName>
+    <externalId>false</externalId>
+    <label>Category</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1 - On-Road Passenger &amp; Light Truck</fullName>
+                <default>false</default>
+                <label>1 - On-Road Passenger &amp; Light Truck</label>
+            </value>
+            <value>
+                <fullName>2_Medium_truck</fullName>
+                <default>false</default>
+                <label>2 - On-Road Medium Truck</label>
+            </value>
+            <value>
+                <fullName>3_Off_road</fullName>
+                <default>false</default>
+                <label>3 - Off-Road Pneumatic</label>
+            </value>
+            <value>
+                <fullName>4_Off_road</fullName>
+                <default>false</default>
+                <label>4 - Off-Road Pneumatic</label>
+            </value>
+            <value>
+                <fullName>5_Off_road</fullName>
+                <default>false</default>
+                <label>5 - Off-Road Pneumatic</label>
+            </value>
+            <value>
+                <fullName>6_Off_road_or_Agricultural</fullName>
+                <default>false</default>
+                <label>6 - Off-Road Pneumatic / Agricultural</label>
+            </value>
+            <value>
+                <fullName>7_Off_road</fullName>
+                <default>false</default>
+                <label>7 - Off-Road Pneumatic</label>
+            </value>
+            <value>
+                <fullName>8 - Off-Road Pneumatic / Agricultural</fullName>
+                <default>false</default>
+                <label>8 - Off-Road Pneumatic / Agricultural</label>
+            </value>
+            <value>
+                <fullName>9_Off_road</fullName>
+                <default>false</default>
+                <label>9 - Off-Road Pneumatic</label>
+            </value>
+            <value>
+                <fullName>10_Off_road</fullName>
+                <default>false</default>
+                <label>10 - Off-Road Pneumatic</label>
+            </value>
+            <value>
+                <fullName>11_Off_road</fullName>
+                <default>false</default>
+                <label>11 - Off-Road Pneumatic</label>
+            </value>
+            <value>
+                <fullName>12_Off_road</fullName>
+                <default>false</default>
+                <label>12 - Off-Road Solid &amp; Resilient</label>
+            </value>
+            <value>
+                <fullName>13_Off_road</fullName>
+                <default>false</default>
+                <label>13 - Off-Road Solid &amp; Resilient</label>
+            </value>
+            <value>
+                <fullName>14_Off_road</fullName>
+                <default>false</default>
+                <label>14 - Off-Road Solid &amp; Resilient</label>
+            </value>
+            <value>
+                <fullName>15_Off_road</fullName>
+                <default>false</default>
+                <label>15 - Off-Road Solid &amp; Resilient</label>
+            </value>
+            <value>
+                <fullName>16_Off_road</fullName>
+                <default>false</default>
+                <label>16 - Off-Road Solid &amp; Resilient</label>
+            </value>
+            <value>
+                <fullName>17_Off_road</fullName>
+                <default>false</default>
+                <label>17 - Off-Road Solid &amp; Resilient</label>
+            </value>
+            <value>
+                <fullName>18_Off_road</fullName>
+                <default>false</default>
+                <label>18 - Off-Road Solid &amp; Resilient</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

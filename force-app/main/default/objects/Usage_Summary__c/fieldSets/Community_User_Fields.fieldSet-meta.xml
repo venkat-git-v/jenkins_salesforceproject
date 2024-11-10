@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FieldSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Community_User_Fields</fullName>
+    <description>&quot;BEFORE UPDATE&quot; section to SetUsageSummaryDetails to set the last modified by/datetime custom fields.</description>
+    <label>Community User Fields</label>
+</FieldSet>

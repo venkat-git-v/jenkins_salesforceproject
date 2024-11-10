@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Program__c</fullName>
+    <externalId>false</externalId>
+    <label>Material</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Blue Box</fullName>
+                <default>false</default>
+                <label>Blue Box</label>
+            </value>
+            <value>
+                <fullName>Construction and Demolition Waste</fullName>
+                <default>false</default>
+                <label>Construction and Demolition Waste</label>
+            </value>
+            <value>
+                <fullName>IC&amp;I Printed Paper &amp; Packaging</fullName>
+                <default>false</default>
+                <label>IC&amp;I Printed Paper &amp; Packaging</label>
+            </value>
+            <value>
+                <fullName>Municipal Hazardous or Special Waste</fullName>
+                <default>false</default>
+                <label>Municipal Hazardous or Special Waste</label>
+            </value>
+            <value>
+                <fullName>Organics</fullName>
+                <default>false</default>
+                <label>Organics</label>
+            </value>
+            <value>
+                <fullName>Textiles</fullName>
+                <default>false</default>
+                <label>Textiles</label>
+            </value>
+            <value>
+                <fullName>Tires</fullName>
+                <default>false</default>
+                <label>Tires</label>
+            </value>
+            <value>
+                <fullName>Waste Electrical and Electronic Equipment</fullName>
+                <default>false</default>
+                <label>Waste Electrical and Electronic Equipment</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

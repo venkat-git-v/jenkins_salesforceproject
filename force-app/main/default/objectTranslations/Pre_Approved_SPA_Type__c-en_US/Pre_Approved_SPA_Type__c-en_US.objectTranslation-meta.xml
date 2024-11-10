@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Pre Approved SPA Type</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Pre Approved SPA Types</value>
+    </caseValues>
+    <layouts>
+        <layout>Pre Approved MPG Layout</layout>
+        <sections>
+            <label></label>
+            <section>Approvers</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Approvers Identified</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Pre Approved Part Number Layout</layout>
+        <sections>
+            <label></label>
+            <section>Approvers</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Approvers Identified</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Pre Approved SPA Type Layout</layout>
+        <sections>
+            <label></label>
+            <section>Approvers</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Approvers Identified</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label></label>
+        <name>Framework</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Hospitality</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>VPA</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

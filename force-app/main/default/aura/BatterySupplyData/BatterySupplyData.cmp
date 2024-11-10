@@ -1,0 +1,63 @@
+<aura:component controller="BatteryUsageDataController" Implements="lightning:isUrlAddressable,force:lightningQuickAction,force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,lightning:actionOverride" access="global">
+  <!--Init handler which is call doInit js function on component Load-->  
+    <aura:attribute name="recordId" type="string"/>
+    <aura:attribute name="totalFee" type="integer" default="0"/>
+    <aura:attribute name="currentYear" type="integer" default="0"/>
+    <aura:attribute name="reportActive" type="Boolean" default="False"/>
+    <aura:attribute name="WrapperList" type="BatteryUsageDataController.usageDataWrapper[]"/> 
+       <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+
+ <aura:if isTrue="{!v.reportActive}">
+ <!--Header Part-->        
+    <div class="slds-page-header">
+        <h1 class="slds-page-header__title">Add Battery Usage</h1>
+        <h1 class="slds-page-header__title slds-float_right" > Total Fees : ${!v.totalFee}  </h1>
+    </div>
+ <!--Table Part-->           
+    <table class="slds-table slds-table_bordered slds-table_cell-buffer"> 
+        <thead>
+            <tr class="slds-text-title_caps">
+                <th scope="col">
+                    
+                </th>
+               <th scope="col">
+                     <div class="slds-truncate" title="{!V.currentYear - 3}">{!V.currentYear -3}</div>
+                </th> 
+                <th scope="col">
+                   <div class="slds-truncate" title="{!V.currentYear - 2}">{!V.currentYear - 2}</div>
+                </th>
+                <th scope="col">
+                   <div class="slds-truncate" title="{!V.currentYear - 1}">{!V.currentYear - 1}</div> 
+                </th>                
+            </tr>
+        </thead>   
+        <tbody>
+           <!--Iterate the child Component for display Table rows 
+               with pass the List Item Index for track the Every child Component 
+               and pass each List Contact Instance  -->        
+            <aura:iteration items="{!v.WrapperList}" var="WrapInstance" indexVar="index"> 
+         <tr class="slds-text-title_caps">
+        <td> 
+           <div class="slds-truncate" title="{!WrapInstance.type}">{!WrapInstance.type}</div>
+        </td>
+         <td>
+           <lightning:input name="input13" type="text" placeholder="Enter the Quantity" value="{!WrapInstance.year1}" onchange="{!c.calculateFees}" updateOn="keyup" class="fieldstyle"/> 
+        </td> 
+        <td>
+            <lightning:input name="input13" type="text" placeholder="Enter the Quantity" value="{!WrapInstance.year2}" onchange="{!c.calculateFees}" updateOn="keyup" class="fieldstyle"/>
+        </td>
+        <td>
+           <lightning:input name="input13" type="text" placeholder="Enter the Quantity" value="{!WrapInstance.year3}" onchange="{!c.calculateFees}" updateOn="keyup" class="fieldstyle"/> 
+        </td>   
+    </tr>
+        </aura:iteration>
+        </tbody>
+    </table>
+    <br/>
+    <!--Save Button which is call Save js function on click -->
+    <div class="slds-p-left_small">
+      
+    <button class="slds-button slds-button_brand" onclick="{!c.Save}">Save</button>
+    </div>
+    </aura:if>
+</aura:component>
